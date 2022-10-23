@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Pré-Bixo</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</head>
+
+<body>
+  <header>
+    <a href="../Index.html" class="logo"><img src="logoLamp.png" id="Arroz" width="80" height="80"></a>
+    <div class="nav">
+      <input type="checkbox">
+      <span></span>
+      <span></span>
+      <div class="menu">
+        <li><a href="../Index.html">Início</a></li>
+        <li><a href="temas.html">Temas</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </div>
+    </div>
+  </header>
+  <section id="seclogo" class="scroll">
+    <img src="logo.png" id="logo">
+    <a href=""><span></span></a>
+  </section>
+  <div class="container">
+    <div class="conter">
+      <div class="carta">
+        <div class="caixa">
+          <div class="conteudo">
+            <h3>Enem</h3>
+            <a href="enem.html">Saiba mais</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="conter">
+        <div class="carta">
+          <div class="caixa">
+            <div class="conteudo">
+              <h3>Vestibulares</h3>
+              <a href="vestibular.html">Saiba mais</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="conter">
+          <div class="carta">
+            <div class="caixa">
+              <div class="conteudo">
+                <h3>Sisu</h3>
+                <a href="sisu.html">Saiba mais</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="conter">
+            <div class="carta">
+              <div class="caixa">
+                <div class="conteudo">
+                  <h3>ProUni</h3>
+                  <a href="prouni.html">Saiba mais</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="conter">
+              <div class="carta">
+                <div class="caixa">
+                  <div class="conteudo">
+                    <h3>Fies</h3>
+                    <a href="fies.html">Saiba mais</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="conter">
+                <div class="carta">
+                  <div class="caixa">
+                    <div class="conteudo">
+                      <h3>Métodos de estudo</h3>
+                      <a href="metodos.html">Saiba mais</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="conter">
+                  <div class="carta">
+                    <div class="caixa">
+                      <div class="conteudo">
+                        <h3>Mercado de trabalho</h3>
+                        <a href="futuro.html">Saiba mais</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div class="footer">
+    <div class="footer-content">
+      Pre-Bixo, um site desenvolvido em 2022 por alguns estudantes do IFSP.
+    </div>
+</body>
+<script>
+  let livros = document.getElementById('logo');
+
+  window.addEventListener('scroll', function () {
+    let value = window.scrollY;
+    livros.style.top = value * 1.5 + 'px';
+    text.style.marginRight = value * 4 + 'px';
+    text.style.marginTop = value * 1.5 + 'px';
+    header.style.top = value * 0.5 + 'px';
+  })
+  const $icone = document.querySelector('.icone');
+  const $arrow = document.querySelector('.arrow');
+
+  $arrow.animate([
+    { left: '0' },
+    { left: '10px' },
+    { left: '0' }
+  ], {
+    duration: 700,
+    iterations: Infinity
+  });
+</script>
+</body>
+
+</html>
