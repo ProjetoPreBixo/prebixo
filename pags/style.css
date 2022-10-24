@@ -472,6 +472,17 @@ body{
   ul li {
     margin: 15px;
   }
+  #galleryContainer {
+  height: 300px;
+  width: 300px;
+  background: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  position: relative;
+}
 }
 
 section {
