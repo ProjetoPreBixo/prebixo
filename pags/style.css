@@ -472,10 +472,26 @@ body{
   ul li {
     margin: 15px;
   }
-  #galleryContainer {
-    max-height: 100%;
-    max-width: 100%;
+#galleryContainer {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+#galleryView {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+#outer3 {
+  max-width: 100%;
+  max-height: 100%;
   }
+
+
+#mainView {
+  max-height: 100%;
+  max-width: 100%;
+}
 }
 
 section {
